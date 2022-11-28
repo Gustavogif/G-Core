@@ -345,10 +345,9 @@ section.contato{
 }
 
 .nome-1 p{
-	width: 200px;
 	position: relative;
-	bottom: 2px;
-	
+	bottom: 3px;
+	font-family: sans-serif;
 }
 
 .w100{
