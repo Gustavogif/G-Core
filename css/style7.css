@@ -359,19 +359,23 @@ section.contato{
 }
 
 .informacao{
+	float: left;
 	position: relative;
-	top: 50%;
-	right: 20%;
-	font-size: 13.8px;
+	font-size: 14px;
+	left: 3%;
+	top: 8%;
 	font-family: sans-serif;
 }
+
+
+
 
 .btn3{
 	width: 420px;
 	height: 50px;
 	position: relative;
-	top: 70%;
-	right: 18.5%;
+	top: 73%;
+	right: 33%;
 	color: #f0f6ff;
 	font-size: 17px;
 	font-family: sans-serif;
