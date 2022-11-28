@@ -126,8 +126,10 @@ header nav.login ul{
 /*contato*/
 
 section.contato{
-	width: 100%;
-	height: 580px;
+	width: 1920px;
+	max-width: 100%;
+	height: 1080px;
+	max-height: 580px;
 	background-color: #f0f6ff;
 	padding-top: 90px;
 }
@@ -258,13 +260,13 @@ section.contato{
 }
 
 .compra{
-	position: relative;
-	bottom: 30px;
-	right: 50px;
 	width: 480px;
 	height: 390px;
-	background: white;
+	position: relative;
 	float: right;
+	top: -9%;
+	right: 4%;
+	background: white;
 }
 
 .compra p{
@@ -335,7 +337,18 @@ section.contato{
 	margin-top: 15px;
 }
 
+.pagar{
+}
+
+.nome-1{
+	position: relative;
+	top: -3px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
 .contato .input-type input[type=text]{
+	position: relative;
 	width: 100%;
 	height: 40px;
 	font-family: sans-serif;
@@ -344,12 +357,6 @@ section.contato{
 	border: 1px solid #c2c2c2;
 }
 
-.nome-1 p{
-	width: 200px;
-	position: relative;
-	bottom: 2px;
-	
-}
 
 .w100{
 	width: 100%;
@@ -360,20 +367,19 @@ section.contato{
 }
 
 .informacao{
-	width: 600px;
 	position: relative;
-	bottom: 15px;
-	left: 45px;
-	font-size: 13.8px;
+	font-size: 14px;
+	bottom: 5%;
+	left: 3%;
 	font-family: sans-serif;
 }
 
 .btn3{
+	position: relative;
+	left: 5%;
+	top: 16%;
 	width: 420px;
 	height: 50px;
-	position: relative;
-	top: 90px;
-	margin-left: 5.5%;
 	color: #f0f6ff;
 	font-size: 17px;
 	font-family: sans-serif;
@@ -394,3 +400,4 @@ section.contato{
 	border-bottom: 5px solid #005a6e;
 	transition: 1s;
 }
+
