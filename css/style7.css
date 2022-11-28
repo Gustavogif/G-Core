@@ -24,7 +24,7 @@ header{
 }
 
 header{
-	width: 100%;
+	width: 1920px;
 	height: 73px;
 	background-color: #003842;
 }
@@ -127,17 +127,16 @@ header nav.login ul{
 
 section.contato{
 	width: 1920px;
-	max-width: 100%;
 	height: 1080px;
-	max-height: 580px;
 	background-color: #f0f6ff;
-	padding-top: 90px;
+	padding-top: 140px;
 }
 
 .flex{
 	display: flex;
 	position: relative;
 	bottom: 20px;
+	left: 3%;
 }
 
 .bola{
@@ -260,12 +259,12 @@ section.contato{
 }
 
 .compra{
-	width: 480px;
-	height: 390px;
+	width: 485px;
+	height: 400px;
 	position: relative;
 	float: right;
 	top: -9%;
-	right: 4%;
+	right: 10%;
 	background: white;
 }
 
@@ -363,22 +362,25 @@ section.contato{
 	width: 50%;
 }
 
+.pagar{
+	position: relative;
+	left: 5%;
+}
+
 .informacao{
 	position: relative;
 	font-size: 14px;
-	bottom: 5%;
-	left: 3%;
 	font-family: sans-serif;
 	float: left;
-	right: 20%;
-
+	right: 23.5%;
+	top: 8.5%;
 }
 
 .btn3{
 	float: left;
 	position: relative;
-	left: 6%;
-	top: 16.5%;
+	left: -21.5%;
+	top: 20%;
 	width: 420px;
 	height: 50px;
 	color: #f0f6ff;
