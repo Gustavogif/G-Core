@@ -24,7 +24,7 @@ header{
 }
 
 header{
-	width: 1920px;
+	width: 100%;
 	height: 73px;
 	background-color: #003842;
 }
@@ -126,17 +126,16 @@ header nav.login ul{
 /*contato*/
 
 section.contato{
-	width: 1920px;
-	height: 1080px;
+	width: 100%;
+	height: 580px;
 	background-color: #f0f6ff;
-	padding-top: 140px;
+	padding-top: 90px;
 }
 
 .flex{
 	display: flex;
 	position: relative;
 	bottom: 20px;
-	left: 3%;
 }
 
 .bola{
@@ -259,13 +258,13 @@ section.contato{
 }
 
 .compra{
-	width: 485px;
-	height: 400px;
 	position: relative;
-	float: right;
-	top: -9%;
-	right: 10%;
+	bottom: 30px;
+	right: 50px;
+	width: 480px;
+	height: 390px;
 	background: white;
+	float: right;
 }
 
 .compra p{
@@ -336,15 +335,7 @@ section.contato{
 	margin-top: 15px;
 }
 
-.nome-1{
-	position: relative;
-	top: -3px;
-	font-size: 14px;
-	font-family: sans-serif;
-}
-
 .contato .input-type input[type=text]{
-	position: relative;
 	width: 100%;
 	height: 40px;
 	font-family: sans-serif;
@@ -353,6 +344,12 @@ section.contato{
 	border: 1px solid #c2c2c2;
 }
 
+.nome-1 p{
+	width: 200px;
+	position: relative;
+	bottom: 2px;
+	
+}
 
 .w100{
 	width: 100%;
@@ -362,27 +359,20 @@ section.contato{
 	width: 50%;
 }
 
-.pagar{
-	position: relative;
-	left: 5%;
-}
-
 .informacao{
 	position: relative;
-	font-size: 14px;
+	top: 50%;
+	right: 20%;
+	font-size: 13.8px;
 	font-family: sans-serif;
-	float: left;
-	right: 23.5%;
-	top: 8.5%;
 }
 
 .btn3{
-	float: left;
-	position: relative;
-	left: -21.5%;
-	top: 20%;
 	width: 420px;
 	height: 50px;
+	position: relative;
+	top: 70%;
+	right: 18.5%;
 	color: #f0f6ff;
 	font-size: 17px;
 	font-family: sans-serif;
@@ -403,4 +393,3 @@ section.contato{
 	border-bottom: 5px solid #005a6e;
 	transition: 1s;
 }
-
