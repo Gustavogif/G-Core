@@ -367,27 +367,6 @@ section.contato{
 }
 
 
-
-.btn3{
-	width: 420px;
-	height: 50px;
-	position: relative;
-	top: 20%;
-	right: 33%;
-	color: #f0f6ff;
-	font-size: 17px;
-	font-family: sans-serif;
-	font-style: italic;
-	background-color: #004f5e;
-	border-bottom: 5px solid #00424f;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	cursor: pointer;
-	user-select: none;
-}
-
 .btn3:hover{
 	color: #f2f6fc;
 	background-color: #006375;
